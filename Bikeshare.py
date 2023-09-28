@@ -33,12 +33,11 @@ def create_gui():
     global var
     
     window = tk.Tk() 
-
     frame = tk.Frame(window)
     frame.pack()
     
     window.configure(bg='Gray')
-    window.title("Bike Share Data Query Tool")
+    window.title("Bike Share Data Query Tool v1.0 by J. Rodriguez")
 
     def city():
         cities = "Chicago, New York City, Washington, chicago, new york city, washington"
