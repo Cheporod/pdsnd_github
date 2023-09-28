@@ -84,7 +84,7 @@ def create_gui():
     title_frame = tk.LabelFrame(frame)
     title_frame.grid(row=0, column=0, padx=10, pady=10)
 
-    title_label = tk.Label(title_frame,text="Welcome!\n To Bike Share Data Exploration",
+    title_label = tk.Label(title_frame,text="Welcome!\n To Bike Share Data Exploration v1.0",
         font=('Time New Roman', 24),
         fg='#9c390e',
         bg='black',
