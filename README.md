@@ -2,7 +2,8 @@
 9/22/2023
 
 ### Project Title:
-Bikeshare Project
+Bikeshare Project 
+(Presented for Udacity course: Programming for Data Science with Python)
 
 ### Description:
 Bicycle-sharing systems allow users to rent bicycles on a very short-term basis for a price.
