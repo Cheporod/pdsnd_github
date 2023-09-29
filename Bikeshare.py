@@ -77,8 +77,7 @@ def create_gui():
         
         else:
             status3.configure(text = "Input Incorrect")
-    
-      
+       
     ############ Title Grid ##############
     title_frame = tk.LabelFrame(frame)
     title_frame.grid(row=0, column=0, padx=10, pady=10)
@@ -156,7 +155,7 @@ def create_gui():
 
     var = tk.IntVar() 
      
-    button = tk.Button(progr_frame, text="Run Program",
+    button = tk.Button(progr_frame, text="Run Program, Thank you!",
                 font=('Time New roman', 18), 
                 fg="#090952",
                 command=tasks)
@@ -241,7 +240,6 @@ def get_filters():
     return city, month, day
 
 ################################################################
-
 def load_data(city, month, day):
 #Load data for city
     print("\nLoading data...")
