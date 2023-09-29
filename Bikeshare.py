@@ -292,7 +292,7 @@ def time_stats(df):
     print(f"\nMost Popular Start Hour: {popular_hour}")
 
 #Prints the time taken to perform the calculation    
-    print("\nThis took %.3f seconds." % (time.time() - start_time))
+    print("\nThis took %.2f seconds." % (time.time() - start_time))
     print('-'*40)
 
 #################POPULAR STATION AND TRIP###############################################
@@ -317,7 +317,7 @@ def station_stats(df):
 
     print(f"\nThe most frequent combination of trips are from {combo}.")
 
-    print("\nThis took %.3f seconds." % (time.time() - start_time))
+    print("\nThis took %.2f seconds." % (time.time() - start_time))
     print('-'*40)
 
 ############ TRIP DURATION ##################################################
